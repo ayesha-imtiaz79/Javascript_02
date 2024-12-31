@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    height: 100vh;
+    background-image: url(./bg-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 85em;
+}
+header{
+    background-color: rgb(245, 214, 168);
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+}
+h1{
+    font-size: 2.5em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+button{
+    background-color: rgb(245, 214, 168);
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    font-style: oblique;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: rgb(212, 170, 114);
+    border: 3px solid black;
+}
+footer{
+    background-color: rgb(245, 214, 168);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    button {
+        width: 80%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
